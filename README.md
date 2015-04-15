@@ -8,12 +8,12 @@ list1 = [1,2,3,4,5]
 find_lists(list1,[6,7],'window',1)
 
 output:
-match found 6:  [1, 2, 3]
-match found 7:  [1, 2, 4]
-match found 6:  [1, 5]
-match found 6:  [2, 4]
-match found 7:  [2, 5]
-match found 7:  [3, 4]
+match found 6:  [1, 2, 3] \n
+match found 7:  [1, 2, 4] \n
+match found 6:  [1, 5] \n
+match found 6:  [2, 4]\n
+match found 7:  [2, 5]\n
+match found 7:  [3, 4]\n
 
 These are all the possible sublists of list [1,2,3,4,5] that sum to 6 or 7
 
