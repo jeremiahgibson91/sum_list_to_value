@@ -3,8 +3,8 @@ Looks through a list for all possible combinations that sum to a specified value
 
 #Example
 list1 = [1,2,3,4,5]
-# list1 to check and the value you're looking for.
-#list,value or [values,between],bounds(exact,window),print(true or false)
+//list1 to check and the value you're looking for.
+//list,value or [values,between],bounds(exact,window),print(true or false)
 find_lists(list1,[6,7],'window',1)
 
 output:
@@ -19,8 +19,8 @@ These are all the possible sublists of list [1,2,3,4,5] that sum to 6 or 7
 
 Other use if you want to specify a specific value you can do that as follows.
 list1 = [1,2,3,4,5]
-# list1 to check and the value you're looking for.
-#list,value or [values,between],bounds(exact,window),print(true or false)
+//list1 to check and the value you're looking for.
+//list,value or [values,between],bounds(exact,window),print(true or false)
 find_lists(list1,6,'exact',1)
 
 Output:
